@@ -1,0 +1,381 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+  font-family:"Droid Sans_Bold";
+  src: url("fonts/DroidSans-Bold.otf");
+  font-display: swap;
+}
+@font-face {
+  font-family:"Droid Sans";
+  src: url("fonts/Droid Sans Regular.ttf");
+font-display: swap;
+}
+body{
+  font:  16px/22px Droid Sans ;
+}
+.title_1{
+  font: bold  25px/40px Droid Sans;
+  opacity: 1;
+  color: #fff;
+}
+.title_2{
+  font: normal normal normal 16px/30px Droid Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.title_6{
+  font: normal normal normal 30px/60px Droid Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+
+
+.all{
+  margin: auto;
+  width: 1350px;
+  max-width: 100%; 
+}
+a {
+  text-decoration: none;
+}
+header,section,nav{
+  display: block;
+}
+header{
+  position: fixed;
+    justify-content: space-between;
+  padding: 9px 114px;
+  display: flex;
+  width: 1350px;
+  max-width: 100%;
+  /*position: absolute;*/
+  z-index: 2;
+}
+.menu a{
+  transition: all 1s;
+  color: white;
+  margin: 0 10px;
+}
+.menu a:hover{
+color: yellow;
+}
+.menu .btn {
+    padding: 6px 16px;
+}
+
+}
+.home_top{
+  position: relative;
+}
+.home_top img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index:-1;
+}
+.top_content{
+  text-align: center;
+  top: 145px;
+  left: 507px;
+position: absolute;
+  width:490px;
+  max-width: 100%
+}
+.top_content input{
+  border: none;
+  border-radius: 20px;
+opacity: 1;
+width: 440px;
+height: 40px;
+}
+.serach{
+  position: relative;
+  width: 481px;
+height: 40px;
+}
+.bt{
+  right: 20px;
+    position: absolute;
+    padding: 9px 13px;
+  transition: all 1s;
+    background-color: yellow;
+    border-radius: 89px;
+}
+.bt:hover{
+  background-color: red;
+}
+.similar{
+  background-color: #F5F7FB;
+  display: flex;
+    justify-content: space-evenly;
+}
+
+
+.text{
+  margin-bottom: 15px;
+  padding: 9px;
+  justify-content: space-between;
+  box-shadow: 0px 3px 6px #00000012;
+border: 0.5px solid #CECECE;
+border-radius: 11px;
+opacity: 1;
+  display: flex;
+  width: 576px;
+  max-width: 100%;
+  max-height: 100%;
+  
+}
+.btn{
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 17px 38px;
+  background: #FFD226 0% 0% no-repeat padding-box;
+border-radius: 6px;
+opacity: 1;
+transition: all 1s;
+}
+.btn:hover{
+  transform: translateX(10px)  skew(10deg);;
+  
+  background-color: red;
+}
+
+.redy{
+  position: relative;
+}
+.redy img{
+  max-width: 100%;
+}
+.redy_content {
+  position: absolute;
+  left: 382px;
+    top: 108px;
+ width: 503px;
+ max-width: 500px;
+}
+
+footer{
+padding: 25px 0;
+  background-color:#234096 ;
+}
+.for{
+  margin: 16px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.for a{
+  color: white;
+}
+.brand{
+display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.brand a{
+  border-radius: 4px;
+  color:#234096 ;
+  background-color:white;
+  padding: 3px 13px;
+  transition: all 1s;
+}
+.brand a:hover{
+  background-color: yellow;
+}
+.foot{
+  width: 278px;
+  margin: auto;
+}
+.log{
+  display: flex;
+    justify-content: center;
+  
+}
+hr{
+  margin: auto;
+  width: 68px;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 1050px){
+  header {    
+ padding: 9px 130px;   
+}
+.top_content {
+    
+    top: 106px;
+    left: 317px;
+}
+.text{  
+    width: 494px;
+}
+.redy_content {
+    position: absolute;
+    left: 365px;
+    top: 70px;
+    /* width: 488px; */
+    max-width: 500px;
+}
+.title_6 {
+    font: normal normal normal 22px/51px Droid Sans;
+}
+
+.btn {   
+    padding: 10px 6px;
+}
+}
+
+
+@media screen and (max-width: 980px){
+.similar {
+    flex-wrap: wrap;
+}
+.similar_content{
+  margin-bottom: 20px;
+}
+.top_content {
+    top: 84px;
+    left: 240px;
+}
+}
+@media screen and (max-width: 760px){
+  .top_content {
+    top: 65px;
+    left: 151px;
+}
+.redy_content {   
+    left: 211px;
+    top: 48px;
+}
+header {
+    padding: 9px 77px;
+}
+}
+@media screen and (max-width: 660px){
+  .top_content input {
+    
+    width: 367px;
+    height: 40px;
+}
+.top_content {
+    top: 54px;
+    left: 140px;
+}
+.title_1 {
+    font: bold 21px/40px Droid Sans;
+}
+
+.redy_content {
+    position: absolute;
+    left: 165px;
+    top: 30px;
+    /* width: 488px; */
+    max-width: 500px;
+}
+}
+@media screen and (max-width: 590px){
+
+
+.bt {
+  transition: all 1s;
+    right: 77px;
+    position: absolute;
+    padding: 4px 11px;
+    background-color: yellow;
+    border-radius: 89px;
+}
+.top_content {
+    top: 54px;
+    left: 85px;
+}
+.top_content input {
+    width: 336px;
+    height: 31px;
+}
+
+}
+
+
+
+@media screen and (max-width: 560px){
+header {
+    padding: 9px 146px 0px 37px;
+}
+header img{
+ width: 100px; 
+}
+.menu .btn {
+    padding: 1px 10px;
+    font-size: 13px;
+}
+.bt {
+    right: 78px;
+    position: absolute;
+    padding: 4px 9px;
+    background-color: yellow;
+    border-radius: 89px;
+}
+.top_content input {
+    width: 319px;
+    height: 30px;
+}
+.title_1 {
+    font: bold 19px/36px Droid Sans;
+}
+.top_content {
+    top: 39px;
+    left: 48px;
+}
+.text {
+    width: 487px;
+}
+.title_2 {
+    font: normal normal normal 14px/17px Droid Sans;
+}
+.title_6 {
+    font: normal normal normal 20px/42px Droid Sans;
+}
+.btn {
+    font-size: 12px;
+    padding: 5px 8px;
+}
+.a{
+  width: 100px;
+  height: 30px
+}
+}
+@media screen and (max-width: 430px){
+
+  .menu{
+    font-size: 13px;
+  }
+  header {
+    padding: 5px 280px 0px 3px;
+}
+.title_1 {
+    font: bold 19px/22px Droid Sans;
+}
+.top_content input {
+    width: 238px;
+    height: 30px;
+}
+.top_content {
+    top: 31px;
+    left: 22px;
+}
+.text {
+    width: 383px;
+}
+.title_6 {
+    font: normal normal normal 15px/35px Droid Sans;
+}
+}

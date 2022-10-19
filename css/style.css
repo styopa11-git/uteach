@@ -1,0 +1,550 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+  font-family:"Droid Sans_Bold";
+  src: url("fonts/DroidSans-Bold.otf");
+  font-display: swap;
+}
+@font-face {
+  font-family:"Droid Sans";
+  src: url("fonts/Droid Sans Regular.ttf");
+font-display: swap;
+}
+body{
+  font:  16px/22px Droid Sans ;
+}
+.title_1{
+  color: #FFFFFF;
+  
+  font:  Bold 35px/50px Droid Sans;
+letter-spacing: 0px;
+opacity: 1;
+}
+.title_3{
+  font: bold 20px/30px Droid Sans;
+
+}
+.title_2{
+  font:  18px/30px Droid Sans ;
+  letter-spacing: 0px;
+color: #000000;
+}
+.title_4{
+  color: #fff;
+  font:20px/40px Droid Sans;
+letter-spacing: 0px;
+opacity: 1;
+}
+.title_5{
+ font: normal normal bold 30px/42px Droid Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+
+}
+.title_6{
+  font: normal normal normal 30px/60px Droid Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.all{
+  margin: auto;
+  
+  width: 1350px;
+  max-width: 100%; 
+}
+header,section,nav{
+  display: block;
+}
+header{
+  position: fixed;
+    justify-content: space-between;
+  padding: 9px 114px;
+  display: flex;
+  width: 1350px;
+  max-width: 100%;
+  /*position: absolute;*/
+  z-index: 2;
+}
+.menu a{
+  transition: all 1s;
+  color: white;
+  margin: 0 10px;
+}
+.menu a:hover{
+color: yellow;
+}
+.menu .btn{
+  padding: 6px 16px;
+}
+.home_top{
+  position: relative;
+}
+.home_top img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index:-1;
+}
+.arr{
+  height: 30px;
+  width: 30px;
+  ;
+  z-index: 100;
+  position: absolute;
+  bottom: 86px;
+  left: 79px;
+  
+}
+ .top_content{
+  top:94px;
+  left:105px;
+  position: absolute;
+  width: 469px;
+  max-width: 100%;
+}
+.top_content .btn{
+  margin-top: 61px;
+}
+.btn{
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 17px 38px;
+  background: #FFD226 0% 0% no-repeat padding-box;
+border-radius: 6px;
+opacity: 1;
+transition: all 1s;
+}
+.btn:hover{
+  transform: translateX(10px)  skew(10deg);;
+  
+  background-color: red;
+}
+.Build{
+  justify-content: space-between;
+  /*flex-wrap: wrap;*/
+  padding: 0 142px;
+  display: flex;
+}
+.easy img{
+overflow: hidden;
+
+}
+.easy img:hover{
+  transform: scale(1.1,1.1);
+}
+
+.platform{
+  position: relative;
+}
+.platform img{
+  max-width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.platform_content{
+  top: 41px;
+  max-width: 470px;
+  position: absolute;
+  left: 202px;
+}
+.platform_content .btn{
+  margin-top: 37px;
+}
+.plan{
+  padding: 0 122px;
+  position: relative;
+}
+.plan img{
+max-width: 100%;
+object-fit: cover;
+}
+.plan_content{
+  right: 391px;
+    top: 148px;
+    position: absolute;
+    max-width: 100%;
+    width: 284px;
+}
+
+.admin{
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: flex;
+}
+.boy{
+  object-fit: cover;
+  width: 160px;
+  max-width: 100%;
+
+}
+.not img{
+  width: 100%;
+  width: 433px;
+  object-fit: cover;
+
+}
+.text{
+  font: normal normal normal 20px/35px Droid Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+flex-direction: column;
+  display: flex;
+}
+.text a{
+  text-decoration: none;
+  color: black;
+}
+.text i{
+  font-size: 30px ;
+  color: yellow;
+  transition: all 1s;
+}
+
+.text i:hover{
+  color: blue;
+}
+.redy{
+  position: relative;
+}
+.redy img{
+  max-width: 100%;
+}
+.redy_content {
+  position: absolute;
+  left: 382px;
+    top: 108px;
+ width: 503px;
+ max-width: 500px;
+}
+
+a{
+  text-decoration: none;
+}
+footer{
+padding: 25px 0;
+  background-color:#234096 ;
+}
+.for{
+  margin: 16px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.for a{
+  color: white;
+}
+.brand{
+display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.brand a{
+  border-radius: 4px;
+  color:#234096 ;
+  background-color:white;
+  padding: 3px 13px;
+  transition: all 1s;
+}
+.brand a:hover{
+  background-color: yellow;
+}
+.foot{
+  width: 278px;
+  margin: auto;
+}
+.log{
+  display: flex;
+    justify-content: center;
+  
+}
+hr{
+  margin: auto;
+  width: 68px;
+  margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1050px){
+  .easy img{
+    width: 400px;
+  }
+  .plan_content {
+    right: 321px;
+    top: 148px;
+}
+.title_5 {
+    font: normal normal bold 26px/29px Droid Sans;
+    }
+  .title_3 {
+    font: bold 21px/19px Droid Sans;
+}
+.title_2 {
+    font: 19px/26px Droid Sans;
+    
+}
+.title_4 {
+    font: 20px/31px Droid Sans; 
+    }
+.platform_content{
+  left: 76px;
+}
+.redy_content {
+    
+    left: 283px;
+    top: 84px;
+   
+}
+}
+
+
+
+
+
+@media screen and (max-width: 992px){
+.title_1 {
+    
+    font: Bold 29px/43px Droid Sans; 
+}
+.top_content {
+    top: 64px;
+    left: 60px;
+}
+.btn {   
+    margin-top: 21px;    
+    padding: 13px 28px;
+}
+.Build{
+  padding: 0 40px;
+}
+.platform_content{
+  left: 84px;
+}
+
+.title_4{
+ 
+  font:20px/36px Droid Sans;
+
+}
+}
+@media screen and (max-width: 778px){
+header {   
+    padding: 8px 46px;
+}
+
+.title_1 {
+    font: Bold 26px/40px Droid Sans;
+}
+.top_content .btn {
+    margin-top: 22px;
+}
+.platform_content {
+    left: 33px;
+}
+.title_4 {
+    font: 17px/28px Droid Sans;
+}
+.platform_content .btn {
+    margin-top: 14px;
+}
+.plan {
+    padding: 0 59px;
+    position: relative;
+}
+.title_5 {
+    font: normal normal bold 25px/27px Droid Sans;
+}
+.plan_content {
+    right: 223px;
+    top: 130px;
+}
+
+.btn {
+    margin-top: 12px;
+    padding: 10px 16px;
+}
+.redy_content {
+    left: 243px;
+    top: 59px;
+}
+.title_6 {
+    font: normal normal normal 23px/32px Droid Sans;
+}
+.admin {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+}
+.text {
+    font: normal normal normal 15px/20px Droid Sans;
+}
+}
+
+
+@media screen and (max-width: 664px){
+header {
+    padding: 3px 104px 0 35px;
+}
+.top_content {
+    top: 62px;
+    left: 38px;
+}
+.title_1 {
+    font: Bold 19px/28px Droid Sans;
+}
+.easy img {
+    width: 310px;
+}
+.title_2 {
+    font: 16px/20px Droid Sans;
+}
+.title_3 {
+    font: bold 18px/19px Droid Sans;
+}
+.title_4 {
+    font: 13px/14px Droid Sans;
+}
+.platform_content .btn {
+    margin-top: 12px;
+    padding: 5px 1px;
+    font-size: 13px;
+}
+.plan {
+    padding: 0 0px;
+}
+.plan_content {
+    right: 118px;
+    top: 109px;
+}
+.title_5 {
+    font: normal normal bold 22px/24px Droid Sans;
+}
+.boy img{
+  width: 129px;
+}
+.not img {
+    width: 100%;
+    width: 331px;
+    object-fit: cover;
+}
+.redy_content {
+    left: 184px;
+    top: 47px;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 500px){
+  .top_content {
+    top: 21px;
+    left: 20px;
+}
+
+.title_1 {
+    font: Bold 14px/24px Droid Sans;
+}
+.top_content .btn {
+    margin-top: 9px;
+}
+.btn {
+  font-size: 10px;
+    padding: 1px 1px;
+}
+.Build {
+    padding: 0px 0px;
+}
+.title_3 {
+    font: bold 16px/15px Droid Sans;
+}
+.title_2 {
+    font: 10px/17px Droid Sans;
+}
+.easy img {
+    width: 248px;
+}
+
+.platform_content {
+    top: 8px;
+    max-width: 386px;
+    left: 16px;
+}
+.title_4 {
+    font: 10px/16px Droid Sans;
+}
+.platform_content .btn {
+    margin-top: 10px;
+}
+.plan {
+    padding: 0 0px;
+    position: relative;
+}
+.title_5 {
+    font: normal normal bold 16px/22px Droid Sans;
+}
+.plan_content {
+    right: -19px;
+    top: 65px;
+}
+
+.not img {
+   
+    width: 331px;
+    
+}
+.redy_content {
+    left: 112px;
+    top: 23px;
+}
+.title_6 {
+    font: normal normal normal 13px/6px Droid Sans;
+}
+header img{
+  width: 100px;
+}
+header{
+  padding: 0px 234px 0 0;
+}
+.menu a{
+  font-size: 10px;
+}
+.menu .btn {
+    padding: 1px 7px;
+}
+.arr {
+    
+    bottom: 49px;
+    left: 39px;
+}
+.admin{
+  flex-wrap: wrap;
+  
+  display: flex;
+}
+.boy {
+    margin-left: 111px;
+    object-fit: cover;
+    width: 260px;
+    max-width: 100%;
+}
+.text {
+    font: normal normal normal 15px/10px Droid Sans;
+}
+}
+

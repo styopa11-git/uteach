@@ -1,0 +1,441 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+  font-family:"Droid Sans_Bold";
+  src: url("fonts/DroidSans-Bold.otf");
+  font-display: swap;
+}
+@font-face {
+  font-family:"Droid Sans";
+  src: url("fonts/Droid Sans Regular.ttf");
+font-display: swap;
+}
+body{
+  font:  16px/22px Droid Sans ;
+}
+.title_1{
+font: normal normal bold 25px/60px Droid Sans;
+letter-spacing: 0px;
+color: #7AD7BC;
+}
+.title_2{
+  font: normal normal normal 18px/28px Droid Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+.title_3{
+  font: normal normal normal 25px/60px Droid Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+.title_4{
+  text-align: center;
+  font: normal normal bold 20px/34px Droid Sans;
+letter-spacing: 0.42px;
+color: #494A4E;
+opacity: 1;
+}
+.title_5{
+  text-align: justify;
+  padding: 0 41px;
+  font: normal normal normal 18px/32px Droid Sans;
+letter-spacing: 0px;
+color: #464646;
+opacity: 1;
+}
+.title_6{
+  font: normal normal normal 30px/60px Droid Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.all{
+  margin: auto;
+  width: 1350px;
+  max-width: 100%; 
+}
+a {
+  text-decoration: none;
+}
+header,section,nav{
+  display: block;
+}
+header{
+  position: fixed;
+    justify-content: space-between;
+  padding: 9px 114px;
+  display: flex;
+  width: 1350px;
+  max-width: 100%;
+  /*position: absolute;*/
+  z-index: 2;
+}
+.menu a{
+  transition: all 1s;
+  color: white;
+  margin: 0 10px;
+}
+.menu a:hover{
+color: yellow;
+}
+.menu .btn {
+    padding: 6px 16px;
+}
+.home_top{
+  position: relative;
+}
+.home_top img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index:-1;
+}
+.top_content{
+  text-align: center;
+  top: 96px;
+left: 291px;
+position: absolute;
+  max-width: 100%
+}
+
+
+
+.btn{
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 17px 38px;
+  background: #FFD226 0% 0% no-repeat padding-box;
+border-radius: 6px;
+opacity: 1;
+transition: all 1s;
+}
+.btn:hover{
+  transform: translateX(10px)  skew(10deg);;
+  
+  background-color: red;
+}
+.costum{
+  top: 317px;
+left: 409px;
+  display: flex;
+ position: absolute;
+}
+.text{
+  background-color: white;
+  padding-bottom: 11px;
+  margin-left: 33px;
+  text-align: justifys;
+  text-align: center;
+  width: 252px;
+box-shadow: 0px 5px 10px #B2B2B2BF;
+border-radius: 9px;
+opacity: 1;
+}
+.text a {
+    padding: 8px 22px;
+    font: normal normal normal 16px/32px Droid Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 3px;
+    margin-right: 48px;
+}
+.text_1{
+  background-color: white;
+  margin-left: 33px;
+  text-align: justifys;
+  text-align: center;
+  width: 252px;
+box-shadow: 0px 5px 10px #B2B2B2BF;
+border-radius: 9px;
+opacity: 1;
+height: 562px;
+}
+.text_1 a {
+    padding: 8px 22px;
+    font: normal normal normal 16px/32px Droid Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 3px;
+    margin-right: 48px;
+}
+.submit{
+  position: relative;
+}
+.submit a{
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 6px;
+  top: 10px;
+    left: 56px;
+  position: absolute;
+font: normal normal normal 20px/29px Droid Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.text img{
+  height: 71px;
+  width: 252px;
+}
+.redy{
+  margin-top: 472px;
+  position: relative;
+}
+.redy img{
+  max-width: 100%;
+}
+.redy_content {
+  position: absolute;
+  left: 382px;
+    top: 108px;
+ width: 503px;
+ max-width: 500px;
+}
+
+footer{
+padding: 25px 0;
+  background-color:#234096 ;
+}
+.for{
+  margin: 16px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.for a{
+  color: white;
+}
+.brand{
+display: flex;
+    justify-content: space-between;
+}
+.foot{
+  width: 278px;
+  margin: auto;
+}
+.log{
+  display: flex;
+    justify-content: center;
+  
+}
+hr{
+  margin: auto;
+  width: 68px;
+  margin-bottom: 16px;
+}
+
+
+
+
+.brand a{
+  border-radius: 4px;
+  color:#234096 ;
+  background-color:white;
+  padding: 3px 13px;
+  transition: all 1s;
+}
+.brand a:hover{
+  background-color: yellow;
+}
+.foot{
+  width: 278px;
+  margin: auto;
+}
+.log{
+  display: flex;
+    justify-content: center;
+  
+}
+hr{
+  margin: auto;
+  width: 68px;
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 1050px){
+  header {    
+ padding: 9px 130px;   
+}
+.costum {
+    top: 258px;
+    left: 261px;
+    display: flex;
+    position: absolute;
+}
+.btn {   
+    padding: 10px 6px;
+}
+}
+@media screen and (max-width: 900px){
+  .title_2 {
+    font: normal normal normal 16px/28px Droid Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.title_1 {
+    font: normal normal bold 21px/31px Droid Sans;
+    letter-spacing: 0px;
+    color: #7AD7BC;
+}
+.text_1 {
+    
+    height: 428px;
+}
+.text {
+   
+    opacity: 1;
+}
+.title_5 {
+    text-align: justify;
+    padding: 0 41px;
+    font: normal normal normal 16px/24px Droid Sans;
+    letter-spacing: 0px;
+    color: #464646;
+    opacity: 1;
+}
+.top_content {
+    text-align: center;
+    top: 96px;
+    left: 143px;
+    position: absolute;
+    max-width: 100%;
+}
+.title_6 {
+    font: normal normal normal 24px/42px Droid Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.redy_content {
+   
+    left: 283px;
+    top: 88px;
+    width: 400px;
+    max-width: 500px;
+}
+}
+@media screen and (max-width: 818px){
+ .top_content {
+    
+    top: 74px;
+    left: 115px;
+}
+.title_3 {
+    font: normal normal normal 21px/48px Droid Sans;
+}
+.title_1 {
+    font: normal normal bold 19px/23px Droid Sans;
+}
+.title_2 {
+    font: normal normal normal 16px/20px Droid Sans;
+}
+.costum {
+    top: 176px;
+    left: 133px;
+}
+.text a {
+    padding: 4px 17px;
+    margin-right: 77px;
+}
+.text_1 a {
+    padding: 4px 17px;
+    margin-right: 77px;
+}
+.redy_content {
+   
+    left: 212px;
+    top: 73px;
+}
+}
+@media screen and (max-width: 742px){
+header {
+    padding: 2px 87px 0px 93px;
+}
+.title_3 {
+    font: normal normal normal 18px/29px Droid Sans;
+
+}
+.top_content {
+    top: 50px;
+    left: 111px;
+}
+.title_1 {
+    font: normal normal bold 15px/23px Droid Sans;
+}
+.title_2 {
+    font: normal normal normal 14px/20px Droid Sans;
+}
+.costum {
+    top: 151px;
+    left: 64px;
+    display: flex;
+    position: absolute;
+}
+.btn {
+    padding: 7px 3px;
+    font-size: 14px;
+}
+}
+@media screen and (max-width: 600px){
+  .menu a {
+    font-size: 13px;
+   
+}
+header {
+    padding: 9px 80px 0 52px;
+}
+.menu .btn {
+    padding: 3px 6px;
+    font-size: 13px;
+}
+.top_content {
+    top: 50px;
+    left: 5px;
+}
+.redy {
+    margin-top: 959px;
+    position: relative;
+}
+.title_2 {
+    font: normal normal normal 10px/20px Droid Sans;
+}
+.title_1 {
+    font: normal normal bold 11px/18px Droid Sans;
+}
+.title_3 {
+    font: normal normal normal 11px/13px Droid Sans;
+}
+.a{
+  width: 116px;
+}
+.text_1 a {
+    padding: 0px 12px;
+    margin-right: 77px;
+}
+.text {
+    margin-bottom: 10px;
+    opacity: 1;
+}
+.redy_content {
+    left: 115px;
+    top: 13px;
+}
+.title_6 {
+    font: normal normal normal 13px/36px Droid Sans;
+    
+}
+.btn {
+    padding: 4px 3px;
+    font-size: 10px;
+}
+.costum{
+  flex-wrap: wrap;
+  top: 110px;
+left: 85px;
+  display: flex;
+ position: absolute;
+}
+}
